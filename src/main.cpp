@@ -8,6 +8,8 @@ int main(void)
 {
     Display display(800, 600, "Basic OpenGL Window");
 
+    std::cout << "OpenGL version: " << glGetString(GL_VERSION) << std::endl;
+    
     Vertex verteces[] = {Vertex(glm::vec3(-0.5, -0.5,   0)),
                          Vertex(glm::vec3(0,    0.5, 0)),
                          Vertex(glm::vec3(0.5,  -0.5, 0))};

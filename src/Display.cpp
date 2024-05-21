@@ -32,7 +32,6 @@ Display::Display(int width, int height, const std::string& title)
         return;
     }
 
-
     GLenum status = glewInit();
     if (status != GLEW_OK)
     {
