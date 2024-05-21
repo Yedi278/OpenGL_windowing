@@ -14,4 +14,3 @@ run:
 
 clean:
 	rm -f bin/build
-	
